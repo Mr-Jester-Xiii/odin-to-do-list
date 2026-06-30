@@ -88,8 +88,15 @@
               >
                 <div class="card w-100 mb-3" data-bs-theme="dark">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
                     <div class="container">
+                      <div class="row">
+                        <div class="col-10">
+                          <h5 class="card-title">Card title </h5> 
+                        </div>
+                        <div class="col-2 d-flex flex-column">
+                          <span class="badge rounded-pill text-bg-primary ms-auto">Primary</span>
+                        </div>
+                      </div>
                       <div class="row">
                         <div class="col-9">
                           <p class="card-text">
@@ -97,27 +104,19 @@
                             additional content.
                           </p>
                         </div>
-                        <div class="col-3">
-                          <ul class="nav nav-underline flex-column mb-auto">
-                            <li class="nav-item">
-                              <a
-                                role="button"
-                                class="nav-link link-success"
-                                aria-current="page"
-                              >
-                                <span class="ms-3">Complete ✓</span>
-                              </a>
-                            </li>
-                            <li class="nav-item">
-                              <a
-                                role="button"
-                                class="nav-link link-danger"
-                                aria-current="page"
-                              >
-                                <span class="ms-3">Delete X</span>
-                              </a>
-                            </li>
-                          </ul>
+                      </div>
+                      <div class="row">
+                        <div class="col-2">
+                          <p class="text-secondary mt-3">
+                            00/00/0000
+                          </p>
+                        </div>
+
+                        <div class="col-1 offset-md-8 d-flex flex-column">
+                          <button type="button" class="btn btn-outline-success btn-sm mt-auto">&check;</button>
+                        </div>
+                        <div class="col-1 d-flex flex-column">
+                          <button type="button" class="btn btn-outline-danger btn-sm mt-auto">&#x2715;</button>
                         </div>
                       </div>
                     </div>
